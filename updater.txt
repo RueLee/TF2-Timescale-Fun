@@ -1,23 +1,15 @@
 "Updater" {
 	"Information" {
 		"Version" {
-			"Latest"	"0.4.0"
+			"Latest"	"0.5.0"
 		}
 		
 	}
 	
-	"Notes"	"Introducing Random Mode: Every death will randomize between 0.5-2 by default"
-	"Notes"	"Added 3 ConVars: sm_timescale_fun_random_min, sm_timescale_fun_random_max, sm_timescale_fun_linear_addition_max"
-	"Notes" "Added 1 Admin Command: sm_timescalemenu (Alias: sm_tsmenu)"
-	"Notes" "Renamed all ConVars (see forum for details)"
-	"Notes" "ConVar sm_timescale_fun_linear_addition: Changed default value to 0.05 (was 0.04)"
-	"Notes" "ConVar sm_timescale_fun_linear_captured_value: Team captured will now divide the current timescale value"
-	"Notes" "Convar sm_timescale_fun_linear_captured_value: Changed default value to 1.5 (was 0.1)"
-	"Notes" "Removed ConVars: sm_timescale_sinusodial_enabled, sm_timescale_linear_enabled"
-	"Notes" "Renamed file from host_timescale_increase to timescale_fun for both smx and sp"
-	"Notes" "Code Optimization"
+	"Notes"	"See the link for update information: https://forums.alliedmods.net/showthread.php?p=2720894#post2720894"
 	"Files" {
 		"Plugin"	"Path_SM/addons/sourcemod/plugins/timescale_fun.smx"
+		"Plugin"	"Path_SM/addons/sourcemod/translations/timescale_fun_phrases.txt"
 		"Source"	"Path_SM/addons/sourcemod/scripting/timescale_fun.sp"
 	}
 }

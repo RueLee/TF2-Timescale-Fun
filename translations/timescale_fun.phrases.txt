@@ -1,0 +1,72 @@
+"Phrases"
+{
+    "Round Start"
+    {
+        "en"        "Using Timescale Mode"
+    }
+
+    "Round Finish"
+    {
+        "en"        "Timescale has been reset"
+    }
+
+    "Random Mode Description"
+    {
+        "en"        "Every death will randomize"
+    }
+
+    "Linear Mode Description"
+    {
+        "en"        "Every death will increase at a constant rate and team captured will scale down"
+    }
+
+    "Wavelength Mode Description"
+    {
+        "en"        "Every death will swing up and down"
+    }
+    
+    "Team Glory Mode Description"
+    {
+        "en"        "Average team positions betweeen the two will adjust time by time"
+    }
+
+    "Set Value"
+    {
+        "#format"   "{1:.3f}"
+        "en"        "Timescale value has been set to {1}"
+    }
+
+    "Amplitude Out of Range"
+    {
+        "en"        "Amplitude needs to be around 0.25-2"
+    }
+
+    "Wavelength Interval Set"
+    {
+        "#format"   "{1:.3f}"
+        "en"        "Wavelength interval set to PI/{1}"
+    }
+
+    "Reset"
+    {
+        "#format"   "{1:N}"
+        "en"        "{1} has reset the timescale to the default value"
+    }
+
+    "Menu"
+    {
+        "#format"   "{1:s},{2:s}"
+        "en"        "Select Timescale Mode\nCurrent: {1} | Random Pick: {2}"
+    }
+
+    "Menu Pick Random"
+    {
+        "en"        "to pick random from the list"
+    }
+
+    "Mode Selected"
+    {
+        "#format"   "{1:s}"
+        "en"        "You have selected {1}. Mode will take effect next round!"
+    }
+}
