@@ -8,7 +8,7 @@
 #undef REQUIRE_PLUGIN
 #include <updater>
 
-#define PLUGIN_VERSION	"0.5.0"
+#define PLUGIN_VERSION	"0.5.1"
 #define UPDATE_URL		"https://github.com/RueLee/TF2-Timescale-Fun/blob/main/updater.txt"
 
 #define GAME_TICK_TIME			1.0 / GetGameTickCount()
@@ -173,6 +173,7 @@ public void TF2_OnWaitingForPlayersStart() {
 	g_bWaitingForPlayers = true;
 
 	ResetConVar(g_hTimeScale);
+	g_fWavelengthStep = 0.0;
 
 	if (g_bHasRoundStarted) {
 		switch (g_hActiveMode.iMethod) {
