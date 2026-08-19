@@ -1,7 +1,7 @@
 "Updater" {
 	"Information" {
 		"Version" {
-			"Latest"	"0.5.0"
+			"Latest"	"0.5.1"
 		}
 		
 	}
